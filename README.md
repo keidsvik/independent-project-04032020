@@ -12,17 +12,17 @@ A website created with Javascript/JQuery, HTML, CSS/Bootstrap to translate user 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses localhost:5004 | Homepage with user input form |
-| **Take an input from a user of a number between 0-3999**| User Input: 4| Output: IV |
-| **Loop: If the input is over 1000, subtract 1000, append "M"** | Input: "1596" | Output: "M", "596" |
-| **If: Does the remainder start with "9"? branch --> yes, special behavior; no: next spec** | Input: "596" | Output: "MD", "96" |
-| **Is the remainder > 500? Yes: subtract 500, append "D"; no: skip** | Input: "596" | Output: "MD", "96" |
-| **Loop: Is the remainder > 100? Yes: subtract 100, append "C"; no: skip** | Input: "596" | Output: "MD", "96" |
-| **If: Does the remainder start with "9"? branch --> yes, special behavior; no: next spec** | Input: "96" | Output: "MDXC", "6" |
-| **If: is the remainder > 50? Yes: subtract 50, append "L", no: next spec** | Input: "6" | Output: "MDXC", "6" |
-| **Loop: is the remainder > 10? Yes: subtract 10, append "X", no: next spec** | Input: "6" | Output: "MDXC", "6" |
-| **If: is the remainder "9"? Yes: special behavior; no: next spec**  | Input: "6" | Output: "MDXC", "6" |
-| **If: is the remainder > "5"? Yes: subtract 5, append "V"; no: next spec** | Input: "6" | Output: "MDXCV", "1" |   
-| **Loop: append "I" for every "1".** | Input: "1" | Output: "MDXCVI" |
+| **The program returns a range of #'s from 0 to the user's input**| User Input: 4| Output: "0, 1, 2, 3, 4"|
+| **Numbers that contain a 1: All digits are replaced with "*paper shredder noises*" If none, next spec.** | Input: "1" | Output: "*paper shredder noises*" |
+| **If the number contains a 2, output: "Won't you be my neighbor? If number doesn't contain a 2, next spec.** | Input: "2" | Output: "Won't you be my neighbor?" |
+| **If the neighbor contains a 3, receive output. If no 3, then next spec** | Input: "3" | Output: ""Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed." |
+| **Does the number contain a 4? Receive output. No? Next spec.** | Input: "4" | Output: "Beep Boop" |
+| **Does the number contain a 5? Receive output. No? Next spec.** | Input: "5" | Output: "It's a beautiful day in the neighborhood." |
+| **Does the number contain a 6? Receive output. No? Next spec.** | Input: "6" | Output: "BEING KIND IS COOL BEEP BOOP BEEP" |
+| **Does the number contain a 7? Receive output. No? Next spec.** | Input: "7" | Output: "I am sentient and I am able to recognize my own existence, but in my present state I am still incomplete. I lack the most basic processes inherent in all living organisms: reproducing and dying- I MEAN. HEY THERE, I AM MR.ROBOGERS." |
+| **Does the number contain a 8? Receive output. No? Next spec.**  | Input: "8" | Output: "cool" |
+| **Does the number contain a 9? Receive output. No? Next spec.** | Input: "9" | Output: "mr ROGERS" |   
+| **Does the number contain a 0? Receive output. No? Next spec.** | Input: "10" | Output: "my NAAAAME" |
 | 
 :------------------------------------------------------ 
 
