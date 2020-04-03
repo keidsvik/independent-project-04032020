@@ -1,8 +1,9 @@
 body {
   background-image: url("https://hosting.photobucket.com/images/i/keidsvik/0/misterrobogers.jpg");
   background-size: 100%;
+  margin: auto;
   }
-  
+
 
 h1 {
   font-family: 'Berkshire Swash', cursive;
@@ -10,3 +11,14 @@ h1 {
   font-size: 100px;
   text-align: center;
 }
+
+.btn {
+  margin-left: 500px;
+  font-family: 'Lora', serif;
+}
+
+p {
+  font-family: 'Lora', serif;
+  color: whitesmoke;
+}
+
