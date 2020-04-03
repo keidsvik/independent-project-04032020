@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  color: red;
+  font-size: 100px;
+  text-align: center;
+}
+
+body {
+background-image: url(img/misterrobogers.jpg);
+background-repeat: no-repeat;
+}
