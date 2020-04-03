@@ -1,11 +1,12 @@
+body {
+  background-image: url("https://hosting.photobucket.com/images/i/keidsvik/0/misterrobogers.jpg");
+  background-size: 100%;
+  }
+  
+
 h1 {
   font-family: 'Berkshire Swash', cursive;
   color: red;
   font-size: 100px;
   text-align: center;
-}
-
-body {
-background-image: url(img/misterrobogers.jpg);
-background-repeat: no-repeat;
 }
