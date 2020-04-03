@@ -1,12 +1,12 @@
 function humanNumber(robotNumber) {
-  var numArray=["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-  var ourResult="";
-
-  if (robotNumber === 0) {
-    
+  var ourResult=" ";
+ 
+  if ((ourResult.charAt(0)) === 0) {
     ourResult = (ourResult + "COOL");
 
-  } else if (robotNumber === 1) {
+    console.log(ourResult);
+
+  } else if ((ourResult.charAt(2)) === 1) {
     ourResult = (ourResult +"VERY COOL");
 
   } else if (robotNumber ===2) {
