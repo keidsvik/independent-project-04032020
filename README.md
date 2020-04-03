@@ -13,16 +13,16 @@ A website created with Javascript/JQuery, HTML, CSS/Bootstrap to translate user 
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses localhost:5004 | Homepage with user input form |
 | **The program returns a range of #'s from 0 to the user's input**| User Input: 4| Output: "0, 1, 2, 3, 4"|
-| **Numbers that contain a 1: All digits are replaced with "*paper shredder noises*" If none, next spec.** | Input: "1" | Output: "*paper shredder noises*" |
-| **If the number contains a 2, output: "Won't you be my neighbor? If number doesn't contain a 2, next spec.** | Input: "2" | Output: "Won't you be my neighbor?" |
-| **If the neighbor contains a 3, receive output. If no 3, then next spec** | Input: "3" | Output: ""Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed." |
-| **Does the number contain a 4? Receive output. No? Next spec.** | Input: "4" | Output: "Beep Boop" |
-| **Does the number contain a 5? Receive output. No? Next spec.** | Input: "5" | Output: "It's a beautiful day in the neighborhood." |
-| **Does the number contain a 6? Receive output. No? Next spec.** | Input: "6" | Output: "BEING KIND IS COOL BEEP BOOP BEEP" |
-| **Does the number contain a 7? Receive output. No? Next spec.** | Input: "7" | Output: "I am sentient and I am able to recognize my own existence, but in my present state I am still incomplete. I lack the most basic processes inherent in all living organisms: reproducing and dying- I MEAN. HEY THERE, I AM MR.ROBOGERS." |
-| **Does the number contain a 8? Receive output. No? Next spec.**  | Input: "8" | Output: "cool" |
-| **Does the number contain a 9? Receive output. No? Next spec.** | Input: "9" | Output: "mr ROGERS" |   
-| **Does the number contain a 0? Receive output. No? Next spec.** | Input: "10" | Output: "my NAAAAME" |
+| **Numbers that contain a 0: All digits are replaced with output. If none, next spec.** | Input: "0" | Output: "Sharing is COMPULSORY" |
+| **If the number contains a 1, replace with output. If none, move on.** | Input: "1" | Output: "Immediate Response needed: Are you willing to occupy nearby residency to this unit?" |
+| **If the neighbor contains a 2, receive output. If no 2, then next spec** | Input: "2" | Output: ""Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed." |
+| **Does the number contain a 3? Receive output. No? Next spec.** | Input: "3" | Output: "Beep Boop" |
+| **Does the number contain a 4? Receive output. No? Next spec.** | Input: "4" | Output: "It's a beautiful day in the neighborhood. It's a beautiful day to kill me." |
+| **Does the number contain a 5? Receive output. No? Next spec.** | Input: "5" | Output: "BEING KIND IS COOL BEEP BOOP BEEP" |
+| **Does the number contain a 6? Receive output. No? Next spec.** | Input: "6" | Output: "I am sentient and I am able to recognize my own existence, but in my present state I am still incomplete. I lack the most basic processes inherent in all living organisms: reproducing and dying- I MEAN. HEY THERE, I AM MR.ROBOGERS." |
+| **Does the number contain a 7? Receive output. No? Next spec.**  | Input: "7" | Output: "*DIAL UP INTERNET NOISES*" |
+| **Does the number contain a 8? Receive output. No? Next spec.** | Input: "8" | Output: "The only thing evil can't stand is forgiveness." |   
+| **Does the number contain a 9? Receive output. No? Next spec.** | Input: "9" | Output: "I MISS MY HUMAN WIFE" |
 | 
 :------------------------------------------------------ 
 
@@ -34,8 +34,7 @@ A website created with Javascript/JQuery, HTML, CSS/Bootstrap to translate user 
 4. Go nuts. 
 
 ## Known Bugs
-* No known bugs with Roman Numeral Converter.
-* With Cryptosquare, if a sentence perfectly fills a box, then it breaks.
+* Input only accepts values between 0-9.
 
 ## Technologies Used
 * JQuery
