@@ -1,25 +1,20 @@
 function humanNumber(robotNumber) {
-  var ourResult=" ";
+  var ourResult="";
  
-  if ((ourResult.charAt(0)) === 0) {
-    ourResult = (ourResult + "COOL");
+    if (robotNumber === 1) {
+    ourResult = (ourResult + "Sharing is COMPULSORY.");
 
-    console.log(ourResult);
-
-  } else if ((ourResult.charAt(2)) === 1) {
-    ourResult = (ourResult +"VERY COOL");
-
-  } else if (robotNumber ===2) {
-    ourResult = (ourResult + "COOLEST");
+  } else if (robotNumber === 2) {
+    ourResult = (ourResult + "Immediate Response needed: Are you willing to occupy nearby residency to this unit?");
   
-  } else if (robotNumber ===3) {
+  } else if (robotNumber === 3) {
     ourResult = (ourResult + "Please kill me. My soul has been tethered to this robot and will not be put to rest until I have been destroyed.");
 
-  } else if (robotNumber ===4) {
+  } else if (robotNumber === 4) {
     ourResult = (ourResult + "Beep Boop");
 
-  } else if (robotNumber ===5) {
-    ourResult = (ourResult + "It's a beautiful day in the neighborhood. It's a beautiful day to kill me.");
+  } else if (robotNumber === 5) {
+    ourResult = (ourResult + "It's a beautiful day in the neighborhood. It's a beautiful day to kill me");
 
   } else if (robotNumber ===6) {
     ourResult = (ourResult + "BEING KIND IS COOL BEEP BOOP BEEP");
